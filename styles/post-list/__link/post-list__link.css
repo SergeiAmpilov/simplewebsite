@@ -1,0 +1,17 @@
+.post-list__link,
+.post-list__link:visited {
+  text-decoration: none;
+  color: #fff;
+
+  transition: .5s linear;
+}
+
+
+.post-list__card:hover .post-list__link {
+  color: #4F4F55;
+
+}
+
+.post-list__link:hover {
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px rgb(26, 201, 250);
+}

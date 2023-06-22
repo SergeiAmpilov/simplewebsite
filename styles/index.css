@@ -6,5 +6,11 @@
 @import url(./navigation/navigation.css);
 @import url(./nav-button/nav-button.css);
 @import url(./title/title1.css);
+@import url(./title/title2.css);
+@import url(./title/title3.css);
 @import url(./content/content.css);
 @import url(./content/__image/content__image.css);
+@import url(./post-list/post-list.css);
+@import url(./post-list/__card/post-list__card.css);
+@import url(./post-list/__text/post-list__text.css);
+@import url(./post-list/__link/post-list__link.css);
