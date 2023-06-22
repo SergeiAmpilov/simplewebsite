@@ -4,27 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Simple website</title>
 </head>
 <body class="body page">
-  <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="new.html">New</a>
-      <a href="about.html">About</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <a href="/" class="nav-button">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+        </a>
+        <div>
+          <a href="new.html" class="nav-button">New</a>
+          <a href="about.html" class="nav-button">About</a>
+        </div>
+      </nav>
+    </div>
   </header>
   <main>
-    <h1>Hello world</h1>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed sit aliquam dolores culpa natus ut voluptatibus! Necessitatibus pariatur molestiae at impedit nobis, repellendus veritatis similique? Cupiditate, pariatur! Assumenda dolor omnis harum repellendus odio consequatur animi commodi enim molestiae in.
-      </p>
-      <img src="images/portrait.png" alt="">
+    <div class="container">
+      <h1 class="title1">
+        About
+      </h1>
+      <div class="content">
+        <p class="content__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed sit aliquam dolores culpa natus ut voluptatibus! Necessitatibus pariatur molestiae at impedit nobis, repellendus veritatis similique? Cupiditate, pariatur! Assumenda dolor omnis harum repellendus odio consequatur animi commodi enim molestiae in.
+        </p>
+        <img src="images/developer.png" alt="" class="content__image">
+      </div>
     </div>
   </main>
-  <footer>
-    copyright 2023
-  </footer>  
+  <footer class="footer">
+    <div class="container">
+      &#169; <span class="footer__year"></span>
+    </div>
+  </footer>
+  <script src="script/script.js"></script>  
 </body>
 </html>
