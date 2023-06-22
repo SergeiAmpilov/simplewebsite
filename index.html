@@ -4,49 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Simple website</title>
 </head>
 <body class="body page">
   <header class="header">
-    <nav>
-      <a href="/">Home</a>
-      <a href="new.html">New</a>
-      <a href="about.html">About</a>
-    </nav>
+    <div class="container">
+      <nav class="navigation">
+        <a href="/" class="nav-button">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+        </a>
+        <div>
+          <a href="new.html" class="nav-button">New</a>
+          <a href="about.html" class="nav-button">About</a>
+        </div>
+      </nav>
+    </div>
   </header>
   <main>
-    <h1>Hello world</h1>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed sit aliquam dolores culpa natus ut voluptatibus! Necessitatibus pariatur molestiae at impedit nobis, repellendus veritatis similique? Cupiditate, pariatur! Assumenda dolor omnis harum repellendus odio consequatur animi commodi enim molestiae in.
-      </p>
-      <img src="images/portrait.png" alt="">
+    <div class="container">
+      <h1>Hello world</h1>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed sit aliquam dolores culpa natus ut voluptatibus! Necessitatibus pariatur molestiae at impedit nobis, repellendus veritatis similique? Cupiditate, pariatur! Assumenda dolor omnis harum repellendus odio consequatur animi commodi enim molestiae in.
+        </p>
+        <img src="images/portrait.png" alt="">
+      </div>
+      <section>
+        <h2>Posts</h2>
+        <ul>
+          <li>
+            <h3>Post 1</h3>
+            <p>Text of post 1</p>
+            <a href="detail.html">Go to detail page</a>
+  
+          </li>
+          <li>
+            <h3>Post 2</h3>
+            <p>Text of post 2</p>
+            <a href="detail.html">Go to detail page</a>
+  
+          </li>
+          <li>
+            <h3>Post 3</h3>
+            <p>Text of post 3</p>
+            <a href="detail.html">Go to detail page</a>
+          </li>
+        </ul>
+      </section>
     </div>
-    <section>
-      <h2>Posts</h2>
-      <ul>
-        <li>
-          <h3>Post 1</h3>
-          <p>Text of post 1</p>
-          <a href="detail.html">Go to detail page</a>
-
-        </li>
-        <li>
-          <h3>Post 2</h3>
-          <p>Text of post 2</p>
-          <a href="detail.html">Go to detail page</a>
-
-        </li>
-        <li>
-          <h3>Post 3</h3>
-          <p>Text of post 3</p>
-          <a href="detail.html">Go to detail page</a>
-        </li>
-      </ul>
-    </section>
   </main>
-  <footer>
-    copyright 2023
+  <footer class="footer">
+    <div class="container">
+      copyright 2023
+    </div>
   </footer>  
 </body>
 </html>

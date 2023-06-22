@@ -1,0 +1,21 @@
+.nav-button,
+.nav-button:visited {
+  text-decoration: none;
+  color: #D8F3DE;
+
+  border: 1px solid #D8F3DE;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 25px;
+
+  transition: .5s linear;
+}
+
+.nav-button:first-child {
+  margin-left: 0;
+}
+
+.nav-button:hover {
+  background-color:#c9e6cf;
+  color: #4F4F55;
+}
